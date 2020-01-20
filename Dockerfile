@@ -1,6 +1,5 @@
 FROM ubuntu
 RUN apt update
-RUN apt install -y install python python-pip vim
 RUN apt install -y python python-pip vim
 RUN pip install flask
 COPY app.py /opt
